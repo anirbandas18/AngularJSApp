@@ -1,0 +1,35 @@
+<input type="text" ng-model="search" class="search-query"
+	placeholder="Search">
+<table>
+	<thead>
+		<tr>
+			<th ng-click="orderByParam('project')">Project</th>
+			<th ng-click="orderByParam('description')">Description</th>
+			<th ng-click="orderByParam('author')">Author</th>
+			<th ng-click="orderByParam('fileSize')">File Size</th>
+			<th ng-click="orderByParam('creationDate')">Creation Date</th>
+			<th><a href="#/new"><i class="icon-plus-sign"></i></a></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><input type="text" ng-model="_project" ng-change="searchOn(_project)" placeholder="Project"/></td>
+			<td><input type="text" ng-model="_description" ng-change="searchOn(_description)" placeholder="Description"/></td>
+			<td><input type="text" ng-model="_autdor" ng-change="searchOn(_autdor)" placeholder="Autdor"/></td>
+			<td><input type="number" ng-model="_fileSize" ng-change="searchOn(_fileSize)" placeholder="File Size" step="10" min="0"/></td>
+			<td><input type="date" ng-model="_createdOn" ng-change="searchOn(_createdOn)" placeholder="Creation Date"onfocus="(tdis.type='date')"/></td>
+		</tr>
+		<tr
+			ng-repeat="project in projects.projects | filter:search | filter : param | orderBy:customOrder">
+			<td><a href="{{project.site}}" target="_blank">{{project.name}}</a></td>
+			<td>{{project.description}}</td>
+			<td>{{project.author}}</td>
+			<td>{{project.fileSize | fileSize}}</td>
+			<td>{{project.creationDate | date}}</td>
+			<td><a href="#/edit/{{project.$id}}"><i class="icon-pencil"></i></a>
+			</td>
+			<td><a href="#/delete/{{project.$id}}"><i
+					class="icon-remove-sign"></i></a></td>
+		</tr>
+	</tbody>
+</table>

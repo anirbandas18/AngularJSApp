@@ -1,0 +1,11 @@
+[{ "$id": "1", "name":"AngularJS","description":"HTML enhanced for web apps!","site":"http://angularjs.org/", "fileSize": "2145214", "author":"Author 1", "creationDate":"2013-10-21T13:28:06.419Z"},
+{"$id": "2", "name":"Backbone","description":"Models for your apps.","site":"http://documentcloud.github.com/backbone/", "fileSize": "1145214", "author":"Author 2", "creationDate":"2013-12-21T13:28:06.419Z"},
+{"$id": "3", "name":"Batman","description":"Quick and beautiful.","site":"http://batmanjs.org/", "fileSize": "3145214", "author":"Author 3", "creationDate":"2013-11-21T13:28:06.419Z"},
+{"$id": "4", "name":"Cappucino","description":"Objective-J.","site":"http://cappuccino.org/", "fileSize": "3145214", "author":"Author 4", "creationDate":"2014-10-21T13:28:06.419Z"},
+{"$id": "5", "name":"Ember","description":"Ambitious web apps.","site":"http://emberjs.com/", "fileSize": "414514", "author":"Author 5", "creationDate":"2014-09-21T13:28:06.419Z"},
+{"$id": "6", "name":"GWT","description":"JS in Java.","site":"https://developers.google.com/web-toolkit/", "fileSize": "645214", "author":"Author 6", "creationDate":"2015-10-21T13:28:06.419Z"},
+{"$id": "7", "name":"jQuery","description":"Write less, do more.","site":"http://jquery.com/", "fileSize": "2775214", "author":"Author 7", "creationDate":"2015-10-01T13:28:06.419Z"},
+{"$id": "8", "name":"Knockout","description":"MVVM pattern.","site":"http://knockoutjs.com/", "fileSize": "947512", "author":"Author 8", "creationDate":"2016-10-21T13:28:06.419Z"},
+{"$id": "9", "name":"Sammy","description":"Small with class.","site":"http://sammyjs.org/", "fileSize": "214524", "author":"Author 9", "creationDate":"2012-07-21T13:28:06.419Z"},
+{"$id": "10", "name":"Spine","description":"Awesome MVC Apps.","site":"http://spinejs.com/", "fileSize": "4711205", "author":"Author 10", "creationDate":"2015-05-21T13:28:06.419Z"},
+{"$id": "11", "name":"SproutCore","description":"Innovative web-apps.","site":"http://sproutcore.com/", "fileSize": "9845214", "author":"Author 11", "creationDate":"2015-02-21T13:28:06.419Z"}]
